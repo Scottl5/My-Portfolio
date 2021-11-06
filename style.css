@@ -1,0 +1,140 @@
+:root {
+  --black: #231f20;
+  --light: #eaeaea;
+  --gold: #ad974f;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+}
+#nav-name {
+  margin-left: 10px;
+  color: var(--gold);
+  font-family: "Roboto Mono", monospace;
+  border-bottom: var(--light) solid 3px;
+  font-weight: 550;
+}
+#nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 10px 15px 0px 15px;
+  color: var(--gold);
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  transition: all 0.8s;
+}
+.nav-item:hover {
+  background-color: var(--light);
+  font-size: 24px;
+}
+a {
+  color: var(--gold);
+}
+a:hover {
+  color: var(--gold);
+  text-decoration: none;
+}
+.page-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.page-section > h3 {
+  flex: 0 0 20%;
+  text-align: right;
+  margin-right: 30px;
+  border-right: solid var(--gold) 4px;
+  line-height: 1.1;
+  padding-right: 15px;
+}
+
+.headline-img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.8s;
+}
+.headline-img:hover {
+  filter: none;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.headline-div {
+  border: solid 4px var(--gold);
+  margin: 10px 0;
+}
+
+.project-img {
+  width: 49%;
+  display: inline-block;
+  border: solid 4px var(--gold);
+}
+.other-img {
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.8s;
+}
+.other-img:hover {
+  filter: none;
+}
+.other-projects {
+  flex-wrap: nowrap;
+}
+.description {
+  margin: 15px 0px 15px 5px;
+  color: var(--black);
+  width: fit-content;
+  font-size: 16px;
+}
+.page-section > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.info {
+  list-style: none;
+  margin-right: 15px;
+  color: var(--black);
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+  #nav-name {
+    max-width: 100%;
+    border-bottom: none;
+  }
+  #nav-bar {
+    max-width: 100%;
+  }
+  #nav-list {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .page-section {
+    flex-direction: column;
+  }
+  .page-section > h3 {
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    background: var(--gold);
+  }
+}
