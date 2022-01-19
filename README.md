@@ -14,5 +14,5 @@ Email: scott.labelle@snhu.edu
 ## Screenshots
 
 [Link to Website](https://scottl5.github.io/My-Portfolio/)
-![Porfolio1](https://user-images.githubusercontent.com/86165095/140624800-76391dd4-b5bb-4f9f-95ed-444b38612cd6.png)
-![Porfolio2](https://user-images.githubusercontent.com/86165095/140624806-a4350bad-92f6-4263-81d7-97d78dd1a5d9.png)
+![Porfolio1](https://user-images.githubusercontent.com/86165095/150049728-00a93d8f-0aa2-4b9b-884d-b395cd961a28.png)
+![Porfolio2](https://user-images.githubusercontent.com/86165095/150049816-16ebfba1-08f6-4f47-be09-1e1f357f0413.png)
